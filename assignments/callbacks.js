@@ -64,11 +64,17 @@ last(items, (lastItem) => {
 });
 
 
-
+// sumNums adds two numbers (x, y) and passes the result to the callback.
 
 function sumNums(x, y, cb) {
-  // sumNums adds two numbers (x, y) and passes the result to the callback.
+    cb(x + y)  
 }
+
+sumNums(2, 8, (sumn) => {
+
+  console.log(sumn)
+
+});
 
 function multiplyNums(x, y, cb) {
   // multiplyNums multiplies two numbers and passes the result to the callback.
