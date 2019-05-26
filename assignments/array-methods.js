@@ -136,3 +136,5 @@ console.log(ticketPriceTotal);
 // Problem 2
 
 // Problem 3
+
+//*********// Skipping.  I spent enough time on this project to have learned enough for now on array methods, moving on.
